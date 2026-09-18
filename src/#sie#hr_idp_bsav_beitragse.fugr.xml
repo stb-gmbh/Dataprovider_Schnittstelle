@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SAP DP BSAV Beitragsermittlung</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_BSAV_BEITRAGSETOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_BSAV_BEITRAGSE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_BSAV_BEITRAG</FUNCNAME>
+     <SHORT_TEXT>SAP DP - BSAV Beitragsermittlung</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PERSN</PARAMETER>
+       <TYP>PERSNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BEGDA</PARAMETER>
+       <DEFAULT>&apos;18000101&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BEGDA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ENDDA</PARAMETER>
+       <DEFAULT>&apos;99991231&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ENDDA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PP0202</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SIE/HR_FTT_P0202</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PP0202_IS_SUPPLIED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_STDBEIT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MAXBT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_STDBEIT_RAW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>MAXBT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>BBVON</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SIE/HR_BAV_BSAV_BBVON</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>BBBIS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SIE/HR_BAV_BSAV_BBBIS</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>BGPRZ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SIE/HR_BAV_BSAV_BGPRZ</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PERSN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personalnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BEGDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gültigkeitsbeginn</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ENDDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gültigkeitsende</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PP0202</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp zu p0202</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PP0202_IS_SUPPLIED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_STDBEIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personalabrechnung: Betrag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_STDBEIT_RAW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personalabrechnung: Betrag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BBVON</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bandbreite von</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BBBIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bandbreite bis</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BGPRZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Prozentsatz für Standardbeitrag</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

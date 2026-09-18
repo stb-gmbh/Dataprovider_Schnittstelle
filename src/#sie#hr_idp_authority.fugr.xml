@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SAP DP Berechtigungsprüfungen</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_AUTHORITYTOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_AUTHORITY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_AUTH_CHECK</FUNCNAME>
+     <SHORT_TEXT>Berechtigungsprüfungen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TRANSACTION</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TCODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ACTIVITY</PARAMETER>
+       <TYP>/SIE/HR_IDP_ACTIVITY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IF_CLASS</PARAMETER>
+       <TYP>/SIE/HR_IDP_AUTH_CLASS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT</PARAMETER>
+       <TYP>/SIE/HR_IDP_AUTH_CLASS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SUBOBJECT</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_AUTHORITY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TRANSACTION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transaktion</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTIVITY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Art der Aktivität (00-99)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IF_CLASS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schnittstelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Berechtigungsobjekt</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SUBOBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Teilbereich des Objekts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_AUTHORITY</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

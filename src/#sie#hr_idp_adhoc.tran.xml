@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+    <PGMNA>/SIE/HR_IDP_IFC</PGMNA>
+    <DYPNO>2500</DYPNO>
+    <CINFO>BA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+    <TTEXT>SAP DP AD-Hoc Testlauf</TTEXT>
+   </TSTCT>
+   <AUTHORIZATIONS>
+    <TSTCA>
+     <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+     <OBJCT>Z_IFCID</OBJCT>
+     <FIELD>ZACTIVITY</FIELD>
+     <VALUE>71</VALUE>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+     <OBJCT>Z_IFCID</OBJCT>
+     <FIELD>ZAUTHC</FIELD>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+     <OBJCT>Z_IFCID</OBJCT>
+     <FIELD>ZOBJECT</FIELD>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>/SIE/HR_IDP_ADHOC</TCODE>
+     <OBJCT>Z_IFCID</OBJCT>
+     <FIELD>ZSUBOBJ</FIELD>
+    </TSTCA>
+   </AUTHORIZATIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>HR Reportingutilities</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_I_COMPLEX_SELECTTOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_I_COMPLEX_SELECT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_I_COMPLEX_SELECTIONS</FUNCNAME>
+     <SHORT_TEXT>Allgemeine Version des COMPLEX_SELECTIONS_DIALOG mit dyn. Range</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TCLAS</PARAMETER>
+       <TYP>TCLAS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>INFTY</PARAMETER>
+       <TYP>INFTY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FIELDNAME</PARAMETER>
+       <TYP>FIELDNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FIELDKIND</PARAMETER>
+       <TYP>HR_FIELD_KIND</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WINDOW_TITLE</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-TITLE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TEXT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSSELINT-TEXT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SIGNED</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSCONVERT-SIGN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LOWER_CASE</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSCONVERT-LOWER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NO_INTERVAL_CHECK</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>JUST_DISPLAY</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>JUST_INCL</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>C</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>EXCLUDED_OPTIONS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSOPTIONS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DESCRIPTION</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSFLDESC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>HELP_FIELD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSSCR-DBFIELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SEARCH_HELP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>DDSHDESCR-SHLPNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RANGE</PARAMETER>
+       <DBSTRUCT>HRRANGES</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ACTION_CANCELLED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TCLAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transaktionsklasse für Datenhaltung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INFTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Infotyp</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FIELDNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feldname</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FIELDKIND</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Art des Feldes (Infotyp-, Zusatz-, Text-, ...)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WINDOW_TITLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Inhalt der Titelzeile</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text zu einer SELECT-OPTION</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SIGNED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzeige des Vorzeichen bei numerischen Feldern</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOWER_CASE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP/IV: Groß/Kleinschreibung in Selektion erlaubt ?</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_INTERVAL_CHECK</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>JUST_DISPLAY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>JUST_INCL</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXCLUDED_OPTIONS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Optionen für SELECT-OPTIONS</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DESCRIPTION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feldbeschreibung für Konvertierungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>HELP_FIELD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP/IV: Bezugsfeld der Selektion</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SEARCH_HELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name einer Suchhilfe</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Allgemeine Ranges-Struktur</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ACTION_CANCELLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Aktion wurde abgebrochen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
