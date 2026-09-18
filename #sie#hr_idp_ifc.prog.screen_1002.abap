@@ -1,0 +1,21 @@
+PROCESS BEFORE OUTPUT.
+ MODULE SET_TRAN_STATUS_1002.
+ MODULE INIT.                               " Wird von allen aufgerufen
+ MODULE READ_S1VN.
+ MODULE SET_STATUS.                         " Wird von allen aufgerufen
+ CALL SUBSCREEN SUBSCR_TITLE INCLUDING '/SIE/HR_IDP_IFC' C_TITL_SDYN.
+ MODULE READ_S1LT.
+ MODULE READ_S1VT.
+ MODULE READ_S1F.
+ MODULE READ_S1DF.                                         "SIE004
+ CALL SUBSCREEN SUBSCREEN_VARTN INCLUDING '/SIE/HR_IDP_IFC' C_TCTV_SDYN.
+ MODULE MODIFY_SCREEN.
+
+PROCESS AFTER INPUT.
+ MODULE EXIT_COMMAND AT EXIT-COMMAND.       " Wird von allen aufgerufen
+ MODULE COPY_OK_CODE.                       " Wird von allen aufgerufen
+ CALL SUBSCREEN SUBSCR_TITLE.
+ CALL SUBSCREEN SUBSCREEN_VARTN.
+* ....HIER KOMMEN DIE ÄNDERUNGEN
+ MODULE USER_COMMAND.                       " Wird von allen aufgerufen
+

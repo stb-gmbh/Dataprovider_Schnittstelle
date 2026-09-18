@@ -1,0 +1,80 @@
+PROCESS BEFORE OUTPUT.
+ MODULE SET_TRAN_STATUS_1005.
+ MODULE INIT.                               " Wird von allen aufgerufen
+ MODULE READ_S1VN.
+ MODULE SET_STATUS.                         " Wird von allen aufgerufen
+ MODULE SET_DEFAULTS.
+ CALL SUBSCREEN SUBSCR_TITLE INCLUDING '/SIE/HR_IDP_IFC' C_TITL_SDYN.
+ MODULE READ_S1PR.
+ MODULE READ_S1LT.
+ MODULE READ_S1F.
+ MODULE READ_1001.
+ MODULE READ_1005.
+ MODULE MODIFY_SCREEN.
+*
+PROCESS AFTER INPUT.
+ MODULE EXIT_COMMAND AT EXIT-COMMAND.       " Wird von allen aufgerufen
+  CHAIN.
+   FIELD: QPPNP-TIMR1
+        ,  QPPNP-TIMR2
+        ,  QPPNP-TIMR3
+        ,  QPPNP-TIMR4
+        ,  QPPNP-TIMR5
+        ,  QPPNP-TIMR6
+        ,  QPPNP-TIMR7
+        ,  /SIE/HR_IDP_S1PR-BEGDT
+        ,  /SIE/HR_IDP_S1PR-BEGDO
+        ,  /SIE/HR_IDP_S1PR-BEGPT
+        ,  /SIE/HR_IDP_S1PR-BEGPO
+        ,  /SIE/HR_IDP_S1PR-ENDPO
+        ,  /SIE/HR_IDP_S1PR-ENDPT
+        ,  /SIE/HR_IDP_S1PR-ENDDT
+        ,  /SIE/HR_IDP_S1PR-ENDDO
+        ,  /SIE/HR_IDP_S1PR-XABKR
+        .
+        MODULE CONVERT_DATES ON CHAIN-REQUEST.
+ ENDCHAIN.
+ MODULE COPY_OK_CODE.                       " Wird von allen aufgerufen
+ CALL SUBSCREEN SUBSCR_TITLE.               " Wird von allen aufgerufen
+ CHAIN.
+ FIELD: /SIE/HR_IDP_S1PR-BEGDO
+       , /SIE/HR_IDP_S1PR-BEGDT
+       , /SIE/HR_IDP_S1PR-ENDDT
+       , /SIE/HR_IDP_S1PR-ENDDO
+       .
+ MODULE CHECK_DATES_1005_DATA ON CHAIN-REQUEST.
+ ENDCHAIN.
+
+CHAIN.
+FIELD: /SIE/HR_IDP_S1PR-BEGPT
+      , /SIE/HR_IDP_S1PR-BEGPO
+      , /SIE/HR_IDP_S1PR-ENDPT
+      , /SIE/HR_IDP_S1PR-ENDPO
+      .
+MODULE CHECK_DATES_1005_PERSON ON CHAIN-REQUEST.
+ENDCHAIN.
+
+ MODULE FILL_KEYS_1000.
+ MODULE FILL_1005.
+
+ MODULE USER_COMMAND.                       " Wird von allen aufgerufen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
