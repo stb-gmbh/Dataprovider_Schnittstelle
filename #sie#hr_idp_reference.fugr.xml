@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Schnittstellenreferenzierung</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_REFERENCETOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_REFERENCE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_CHECK_REFERENCE</FUNCNAME>
+     <SHORT_TEXT>Prüft, ob eine Schnittstelle referenziert wird</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IFCID</PARAMETER>
+       <TYP>/SIE/HR_IDP_INTERFACE_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IFC_COUNT</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>OUTTAB</PARAMETER>
+       <TYP>/SIE/HR_IDP_TT_SEARCH</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IFCID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name der Schnittstelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IFC_COUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl der betroffenen Schnittstellen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OUTTAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>betroffene Schnittstellen+Versionen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_REFRESH_REFERENCE</FUNCNAME>
+     <SHORT_TEXT>Aktualisieren der referenzierten Schnittstellendaten</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>TRANSACTION_DATA</PARAMETER>
+       <TYP>/SIE/HR_IDP_IFC_DB</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_ACTIVE_VERSION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TRANSACTION_DATA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_ACTIVE_VERSION</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Keine freigegebene Version</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

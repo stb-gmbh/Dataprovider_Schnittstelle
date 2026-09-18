@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>GB Kennziffer Personalstatus</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_KZF_PERS_STATTOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_KZF_PERS_STAT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_KZF_PERS_STAT</FUNCNAME>
+     <SHORT_TEXT>Kennzeichnung der Zugehörigkeit des Mitarbeiters</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PERNR</PARAMETER>
+       <TYP>PERSNO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BEGDA</PARAMETER>
+       <DEFAULT>&apos;18000101&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BEGDA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ENDDA</PARAMETER>
+       <DEFAULT>&apos;99991231&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ENDDA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PP0001</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SIE/HR_FTT_P0001</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PP0001_IS_SUPPLIED</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>KZF_PERS_STAT</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PERNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personalnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BEGDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gültigkeitsbeginn</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ENDDA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gültigkeitsende</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PP0001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp zu p0001</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PP0001_IS_SUPPLIED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Feld zum Ankreuzen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>KZF_PERS_STAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kennziffer Personalstatus</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

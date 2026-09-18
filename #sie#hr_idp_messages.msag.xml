@@ -1,0 +1,1944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>SAP DP Nachrichten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Schwerer interner Fehler!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Die Selektion ergibt eine leere Menge.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Bitte keinen Wochentag eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Bitte keinen Periodenbegriff eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Bitte keinen Delimiter angeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Bitte entweder festes Dateiformat oder Delimiter eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Bitte Wochentag eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Bitte Periodenbegriff eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Zielschnittstelle ist gleich der Quellschnittstelle</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Quellschnittstelle noch nicht aktiv vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Die E-Mail an &amp;1 konnte nicht versandt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>** Anlegen neuer Schnittstellen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde erfolgreich angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 konnte nicht angelegt/verändert werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde erfolgreich geändert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>** Kopieren von Schnittstellen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1, Version &amp;2 wurde kopiert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde erfolgreich freigegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 konnte nicht freigegeben werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde nicht freigegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Das übergebene Feld ist keine Zahl</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>*** Reserviert für Modulpool Pflege der Schnittstellendaten           ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde noch nicht angelegt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Wählen Sie eine Schnittstellenversion!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 existiert schon!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Geben Sie den Namen einer Schnittstelle ein!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>&amp;1 &amp;2 wird vom Benutzer &amp;3 gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Schnittstelle durch Benutzer &amp;1 selbst gesperrt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Die Rolle &amp;1 existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Das Feld &amp;1 existiert nicht. (Interner Fehler)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 existiert schon.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 ist noch nicht freigegeben worden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 konnte nicht gesperrt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 ist noch nicht abgenommen worden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Die aktuelle Version ist schon freigegeben worden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Die Schnittstelle konnte nicht gesperrt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 Einträge wurden in der Tabelle &amp;2 gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Die Version wurde in den Schnittstellenkopfdaten verändert auf &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Das Feld &amp;1 ist im Feldkatalog nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Die Schnittstelle wurde nicht abgenommen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 wurde schon abgenommen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Das Endedatum ist vor dem Anfangsdatum.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>&amp;1 &amp;2 wird vom Benutzer &amp;3 gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Das Programm wird schon durch Benutzer &amp;1 bearbeitet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Geben Sie ein Program- und Variantenname ein oder setzen Kz. Generiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Eine leere Zeile wurde eingefügt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Die Zeile wurde gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Die Zeile wurde ausgeschnitten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>Die Zeile wurde in den Puffer kopiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Die Zeile wurde eingesetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Leerzeilen wurden eingefügt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Die Zeile wurde gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Die Satzart &amp;1 wurde gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Die Satzart &amp;1 wurde angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Die Ansicht wurde durch die Satzart &amp;1 ersetzt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Die Zeile wurde nicht markiert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Die IP Adresse ist nicht gültig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Das Programm &amp;1 existiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Die Variante &amp;1 existiert für das Programm &amp;2 nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Der &amp;1 ist nicht konsistent.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Die Satzart &amp;1 wurde nicht gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Es sind keine Satzarten vorhanden. Legen Sie eine Satzart an!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>Für Feld &amp;1 ist genau eine Konvertierung vorgeschrieben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Für Feld &amp;1 ist keine Konvertierung erlaubt!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Für die Satzart &amp;1 sind nur singuläre felder erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Die Satzart &amp;1 erlaubt nur singuläre Felder oder Felder vom selben Infot.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Für Einmal-, Header- und Nachlaufsätze sind Infotypen nicht zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Bei Wiederholsätzen ist die Angabe des Infotyps zwingend notwendig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Suchen Sie eine Satzart aus oder legen eine neue Satzart an!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Als Parameter sind keine Hochkommas zulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>In der Transferadmission sind Umlaute nicht erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Geben Sie einen Wochentag an.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Geben einen Periodenbegriff ein und den offset ein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Im Typ sind nur Ziffern, Buchstaben und &apos;Underscore&apos; zulässig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Leerzeichen sind nur am Ende zulässig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Eine Anzahl ist bei Manuell vorgegebenen Periodizität nicht zulässig.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Nicht zulässiger Wochentag.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Geben Sie einen Wochentag oder einen Periodenbegriff und den offset ein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Nicht zulässiger Periodenbegriff.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Geben Sie entweder die Kostenkategorie oder die direkte Kosten an!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Die Datei wurde mit einer älteren SAP DP Version erstellt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Leerzeichen im Namen der Schnittstelle sind unzulässig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>In Vor-/Nachlaufsätze sind keine Nutzfelder erlaubt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>In Einmal/Wiederholsätze sind keine Vor-/Nachlaufsatzfelder erlaubt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>Zum Ausführen der Schnittstelle muß diese freigegeben worden sein!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Zur Ad-Hoc Ausführung einer Schnittstelle muß die Variante &amp;1 existieren!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Bei der Weiterverarbeitung der Ausgabedatei ist ein Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Die Ausgabedatei wurde erfolgreich versandt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Es wurden keine Schnittstellen zu diesen Selektionsbedigungen gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Fehler beim Ermitteln der Feldinformationen. Kein Filter möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Filter wurde übernommen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Filter wurde gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Änderungen wurden nicht übernommen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>199</MSGNR>
+     <TEXT>Die Schnittstelle existiert nicht (mehr).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Selektionsfeld ist bereits vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Die eingegebenen Abgrenzungen wurden nicht übernommen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Feld &amp;1 wurde gelöscht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Feld &amp;1 wurde hinzugefügt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Feld &amp;1 ist kein Selektionsfeld.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Bitte Selektionsfeld eingeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Feld &amp;1 ist bereits vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>Zeile wurde gelöscht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Name der Select-Option &amp;1 unbekannt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Arbeitsbereich konnte dem Feldsymbol nicht zugewiesen werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>Feld konnte dem Feldsymbol nicht zugewiesen werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>Kein Infotypfeld vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>Kein gebildeter Begriff vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>Kein Feld aus Abrechnungsclustertabelle vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>Keine Lohnart aus RT vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>Keine Feldgruppierungen vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>217</MSGNR>
+     <TEXT>Keine Langtexte vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>218</MSGNR>
+     <TEXT>Bitte Cursor in ein Selektionsfeld setzen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>219</MSGNR>
+     <TEXT>Keine Selektionsfelder vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>220</MSGNR>
+     <TEXT>Table Control wurde aktualisiert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>221</MSGNR>
+     <TEXT>Kein Katalogfeld vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>222</MSGNR>
+     <TEXT>Bitte für Kapitel- oder Feldtyp-Selektion entscheiden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>223</MSGNR>
+     <TEXT>Keine Lohnartentexte vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>225</MSGNR>
+     <TEXT>Die Selektion ist auf die logischen Feldnamen beschränkt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>227</MSGNR>
+     <TEXT>Bitte Festwert aus F4-Hilfe wählen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>Versionsnummer schliesst Versionsnummernbestimmung aus</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>Keine Zeitparameter vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>Keine Schnittstellendaten vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>Der Feldtyp zu Feld &amp;1 konnte nicht ermittelt werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>Die Konversion &amp;1 ist für das Feld &amp;2 nicht erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>Keine Daten vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>Bitte unterschiedliche Zahlen eingeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>Beginndatum &amp;1 groesser als Endedatum &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>Bitte Zahlen zwischen 1 und 6 verwenden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>Bitte eine Selektion wählen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>Die Satzart 2 &quot;Meta Daten&quot; ist hier nicht erlaubt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Die Schnittstellengültigkeit wurde nicht verlängert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Die Schnittstellengültigkeit wurde verlängert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Im Betrachtungszeitraum sind keine Schnittstellen fällig</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>*** Reserviert Prüfung Schnittstelle ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Die Schnittstelle weist Fehler auf.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Die Schnittstelle &amp;1 ist schon freigegeben.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Das Program existiert schon</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Geben Sie eine gültige Schnittstelle an.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Der Benutzer &amp;1 existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>400</MSGNR>
+     <TEXT>Satzart bereits vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>401</MSGNR>
+     <TEXT>Die Satzart darf nicht mit // anfangen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>450</MSGNR>
+     <TEXT>Referenzschnittstelle noch nicht freigegeben</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>451</MSGNR>
+     <TEXT>Referenzschnittstelle referenziert selbst</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>452</MSGNR>
+     <TEXT>Fehler beim Lesen der Referenzschnittstelle</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>453</MSGNR>
+     <TEXT>Schnittstelle wird noch von &amp;1 anderen Schnittstellen referenziert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>*** RESERVIERT CUSTOMIZING ****</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>Bei Konvertierungsart 3 ist eine Konvertierung nicht vorgesehen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>502</MSGNR>
+     <TEXT>Das Feld &amp;1 ist im Infotyp &amp;2 nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>503</MSGNR>
+     <TEXT>Bitte geben Sie einen neuen Feldnamen ein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>504</MSGNR>
+     <TEXT>Bei Infotypfelder nur Infotyp-relevante Informationen eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>505</MSGNR>
+     <TEXT>Bei Begriffen nur Begriffs-relevante Informationen eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>506</MSGNR>
+     <TEXT>Bei Lohnkonto-Felder nur Lohnkonto-Relevante Informationen eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>507</MSGNR>
+     <TEXT>Bei Lohnarten nur Lohnarten-Relevanten Informationen eingeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>508</MSGNR>
+     <TEXT>Bei Betragsfelder sind nur Addition oder Durschnittsbildung möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>509</MSGNR>
+     <TEXT>Bei Anzahlfelder ist nur die Addition möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>510</MSGNR>
+     <TEXT>Bei Betrag/Einheitfelder ist diese Aggregierung nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>511</MSGNR>
+     <TEXT>Bei Strukturmodifikationen sollte die Struktur mit angegeben werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>555</MSGNR>
+     <TEXT>Sie haben keine Berechtigung.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>556</MSGNR>
+     <TEXT>Bei der Berechtigungsprüfung ist ein interner Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>557</MSGNR>
+     <TEXT>Es liegt eine zerstörte Berechtigung im Benutzerstamm vor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>558</MSGNR>
+     <TEXT>Zu den Selektionen sind keine Daten vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>600</MSGNR>
+     <TEXT>*** Reserviert Schnittstelle Prüfen ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>601</MSGNR>
+     <TEXT>Die Schnittstelle hat keinen oder einen zu kurzen Langtext</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>602</MSGNR>
+     <TEXT>Der Kurztext der Schnittstelle ist zu kurz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>603</MSGNR>
+     <TEXT>Das Endedatum der Gültigkeit der Schnittstelle ist nicht der 31.12.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>604</MSGNR>
+     <TEXT>Der Lieferzeitraum der Schnittstelle ist zu kurz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>605</MSGNR>
+     <TEXT>Die Schnittstelle hat keine Berechtigungsklasse</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>606</MSGNR>
+     <TEXT>Manuell geschriebene Programmen sollten Felder aufweisen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>607</MSGNR>
+     <TEXT>Die Schnittstelle hat nur die Minimal-Felder anforderung erfüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>608</MSGNR>
+     <TEXT>Der Selektionsfeldkatalog sollte spezifiert sein.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>609</MSGNR>
+     <TEXT>Der Selektionsfeldkatalog ist zu kurz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>610</MSGNR>
+     <TEXT>Das generierte Program ist nicht fehlerfrei</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>700</MSGNR>
+     <TEXT>***Reserviert für Programmgenerator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>800</MSGNR>
+     <TEXT>*** Reserviert für Generierte Programme ***</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>801</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>802</MSGNR>
+     <TEXT>Keine Berechtigung für Datei: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>803</MSGNR>
+     <TEXT>Logischer Dateiname &amp;1 kann nicht aufgelöst werden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>804</MSGNR>
+     <TEXT>Fehler beim Öffnen der Datei: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/SIE/HR_IDP_MESSAGES</ARBGB>
+     <MSGNR>805</MSGNR>
+     <TEXT>Es wurden Personalnummern wegen fehlender Berechtigung nicht ausgegeben</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES002</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Durch die Selektionsbedingungen wurden keine Datensätze gelesen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System schreibt keine Ausgabedatei.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ändern der Selektionsbedingungen um eine Selektion zu erhalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES159</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES159</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstellendatei wurde mit einer anderen SAP DP Version</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erstellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Upload ist nicht möglich</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstellendatei sollte mit derselben SAP DP Version erstellt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES164</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00009</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES164</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim der Freigabe einer Schnittstelle werden zwei Varianten angelegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Die erste Variante wird für Läufe verwendet, die von UC4 automatisch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>terminiert werden. Die zweite Variante gleicht der ersten bis auf den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Parameter &apos;AD-HOC Lauf&apos; und wird für Ad-Hoc Schnittstellenläufe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>benutzt. Diese zweite Variante existiert nicht.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstelle kann nur im Ad-Hoc Modus laufen, wenn die Variante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>existiert. Der SAP DP läßt diese Aktion nicht zu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Legen Sie eine Variante an. Hierzu kopieren Sie die schon vorhandene</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Variante und fügen dem Namen der Variante das Kürzel &apos;_AD&apos; zu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES400</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES400</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Satzart ist bereits in der Datenbank oder im Puffer der Transaktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>vorhanden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie eine anderen Bezeichner für die neue Satzart an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES556</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES556</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der Berechtigungsprüfung ist ein interner Fehler im Program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgetreten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System führt die gewünschte Funktion nicht aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Setzen Sie sich mit Ihrem Systemadministrator in Verbindung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES601</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES601</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstelle hat keinen oder einen zu kurzen Langtext, d.h. eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mindestanzahl von Zeilen im Langtext wurde unterschritten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Eine Warnung wird herausgegeben, die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie einen längeren Langtext ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES602</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES602</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstelle hat keine oder eine zu kurze Beschreibung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Eine Warnung wird herausgegeben, die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie einen längeren kurztext ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE> &amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES603</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES603</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Endedatum der Gültigkeit der Schnittstelle ist nicht der 31.12. des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>laufenden Jahres.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle wird trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sollte die Gültigkeit am 31.12. des laufenden Jahres enden, so ist das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Endedatum zu korrigieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES604</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES604</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Lieferzeitraum der Schnittstelle (der Abstand Beginn- und Ende-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>datum der Gültigkeit) ist zu kurz, d.h. es unterschreitet eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mindestanzahl von Tagen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sollte der Lieferzeitraum länger sein, dann sind die Beginn- und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Endedaten in der Schnittstellendefinition zu korrigieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES605</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES605</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstelle hat keine Berechtigungsklasse, d.h. die Änderung und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ausführung der Schnittstelle erfolgt ohne weitergehende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Berechtigungsprüfung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie eine Berechtigungsklasse in der Schnittstellendefinition an,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>damit eine Berechtigungsprüfung stattfinden kann.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES606</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES606</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Auch bei manuell geschriebenen Programmen (Schnittstellenreports), die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nicht generiert werden, sollte der Feldkatalog spezifiert werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie die Felder in der Schnittstellendefinition ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES607</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES607</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schnittstelle hat nur die Minimal-Felder im Feldkatalog, d.h. es</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wurden nur das Feld der Personalnummer bei Single Format Dateien bzw.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Personalnummer und Satzart bei Multi-Format Dateien.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Spezifizieren Sie mehr Felder in der Schnittstellendefinition.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES608</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES608</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Auch bei manuell erstellten Varianten, sollte der Selektionsfeld-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>katalog spezifiert sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie die Selektionsfelder in der Schnittstellendefinition ein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/SIE/HR_IDP_MESSAGES609</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_MESSAGES609</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Selektionsfeldkatalog ist zu kurz, d.h. eine Mindestanzahl von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Selektionsfelder wurde unterschritten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wird eine Warnung herausgegeben. Die Schnittstelle kann trotzdem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>freigegeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie mehr Selektionsfelder an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
