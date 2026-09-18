@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/SIE/SAPLHR_IDP_TRANSPORT</NAME>
+    <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
+    <SUBC>F</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?&gt;</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>&lt;interface XMLNS:dp=&quot;http://www.sbs.de&quot;&gt;</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>&apos;</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>&apos;&apos;</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>101</KEY>
+     <ENTRY>Möchten Sie das aktuelle Layout</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>102</KEY>
+     <ENTRY>trotzdem löschen?</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>103</KEY>
+     <ENTRY>Aktuelles Layout löschen</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>AM1</KEY>
+     <ENTRY>&amp;</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>AMP</KEY>
+     <ENTRY>&amp;amp;</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>HSK</KEY>
+     <ENTRY> &apos;</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SK0</KEY>
+     <ENTRY>&apos;</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SKO</KEY>
+     <ENTRY>&amp;#39;</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SPC</KEY>
+     <ENTRY>&amp;#32;</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

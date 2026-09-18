@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_TRFADM</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/SIE/HR_IDP_TRFADM</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Transferadmission</DDTEXT>
+    <REPTEXT>Transferadmission</REPTEXT>
+    <SCRTEXT_S>Transadm.</SCRTEXT_S>
+    <SCRTEXT_M>Transferadmission</SCRTEXT_M>
+    <SCRTEXT_L>Transferadmission</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Transfer admission</DDTEXT>
+     <REPTEXT>Transfer admission</REPTEXT>
+     <SCRTEXT_S>Trans.adm.</SCRTEXT_S>
+     <SCRTEXT_M>Transfer admission</SCRTEXT_M>
+     <SCRTEXT_L>Transfer admission</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

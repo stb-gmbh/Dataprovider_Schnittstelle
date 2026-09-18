@@ -1,0 +1,62 @@
+*----------------------------------------------------------------------*
+*   INCLUDE /SIE/HR_IDP_STAT_TOP                                       *
+*----------------------------------------------------------------------*
+
+REPORT  /SIE/HR_IDP_STAT LINE-SIZE 256 NO STANDARD PAGE HEADING
+                         MESSAGE-ID /SIE/HR_IDP_MESSAGES.
+
+TABLES: /SIE/HR_IDP_S1
+      , /SIE/HR_IDP_S1P
+      , /SIE/HR_IDP_S1L
+      , /SIE/HR_IDP_S1S
+      , /SIE/HR_JUP_TAB    " Juristische Person
+      , T500P              " Personalbereich
+      , /SIE/HR_BR_EITXT   " Betriebsratseinheit
+      .
+
+INCLUDE <ICON>.
+INCLUDE /SIE/HR_IDP_TYPES.
+
+* Daten zu den Schnittstellen
+DATA: GT_S1 TYPE STANDARD TABLE OF /SIE/HR_IDP_S1 INITIAL SIZE 0
+    , WA_S1 TYPE /SIE/HR_IDP_S1
+    .
+
+* Daten zur Protokollierung
+DATA: GT_S1P TYPE STANDARD TABLE OF /SIE/HR_IDP_S1P INITIAL SIZE 0
+    , WA_S1P TYPE /SIE/HR_IDP_S1P
+    , GT_S1L TYPE STANDARD TABLE OF /SIE/HR_IDP_S1L INITIAL SIZE 0
+    , WA_S1L TYPE /SIE/HR_IDP_S1L
+    , GT_S1S TYPE STANDARD TABLE OF /SIE/HR_IDP_S1S INITIAL SIZE 0
+    , WA_S1S TYPE /SIE/HR_IDP_S1S
+    .
+
+* Daten zur Berechtigungsprüfung
+RANGES: R_IFCID FOR /SIE/HR_IDP_S1-IFCID.
+
+TYPES: BEGIN OF S_AUTH_IFCID
+     , IFCID TYPE /SIE/HR_IDP_INTERFACE_ID
+     , SUBOBJECT TYPE /SIE/HR_IDP_SUBOBJECT
+     , AUTH TYPE TY_YESNO
+     , END OF S_AUTH_IFCID.
+
+DATA: GT_AUTH_IFCID TYPE STANDARD TABLE OF S_AUTH_IFCID INITIAL SIZE 0
+      WITH HEADER LINE.
+
+DATA: RC LIKE SY-SUBRC.
+
+* Daten für die Ausgabe
+DATA: DD_TEXT TYPE DD04T-SCRTEXT_L.
+
+TYPES: BEGIN OF TS_TEXT
+     , TABLE TYPE TABNAME
+     , FIELD TYPE FIELDNAME
+     , TEXT TYPE DD04T-SCRTEXT_L
+     , END OF TS_TEXT
+     .
+
+DATA: WA_TEXT TYPE TS_TEXT
+    , GT_TEXT TYPE STANDARD TABLE OF TS_TEXT INITIAL SIZE 0
+    .
+
+DATA: G_MARK(1) TYPE C.

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_SORT1</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>NUMC1</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Parameter Ausgabereihenfolge</DDTEXT>
+    <REPTEXT>Ausgabereihenfolge</REPTEXT>
+    <SCRTEXT_S>Reihenf.</SCRTEXT_S>
+    <SCRTEXT_M>Reihenfolge</SCRTEXT_M>
+    <SCRTEXT_L>Ausgabereihenfolge</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/SIE/HR_IDP_SORT1</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_SORT1</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit diesem Parameter legen Sie die Ausgabereihenfolge der Teilobjekte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fest.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
