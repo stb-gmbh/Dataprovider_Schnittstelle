@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_EXT_GRKEY</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>XFLAG</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Kennzeichen Untergruppen auflösen</DDTEXT>
+    <REPTEXT>Kennezeichen Untergruppen auflösen</REPTEXT>
+    <SCRTEXT_S>Kennz.</SCRTEXT_S>
+    <SCRTEXT_M>Kennzeichen</SCRTEXT_M>
+    <SCRTEXT_L>Kz. Untergr. aufl.</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/SIE/HR_IDP_EXT_GRKEY</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_EXT_GRKEY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Existieren zu einer Feldkataloggruppe Untergruppen, dann werden diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit den zugehörigen Feldern in der Liste ausgegeben.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

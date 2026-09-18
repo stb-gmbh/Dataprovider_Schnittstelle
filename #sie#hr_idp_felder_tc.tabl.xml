@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/SIE/HR_IDP_FELDER_TC</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Felder im TC</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MARK</FIELDNAME>
+     <ROLLNAME>XFELD</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/SIE/HR_IDP_S1PG</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>SAP DP Spezifikation für einen generierten Report</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>IDENT</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_NUTZBEZ</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>IDENT_KONVNAME</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_KONVBEZ</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KZKEY</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_KZKEY</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ICFILTER</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_ICON_FLT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

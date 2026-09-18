@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_FILEEXTERN</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>TEXT255</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Physischer Dateiname des Schnittstellenlaufes</DDTEXT>
+    <REPTEXT>physische Datei des Schnittstellenlaufes</REPTEXT>
+    <SCRTEXT_S>akt. Datei</SCRTEXT_S>
+    <SCRTEXT_M>akt. phys. Datei</SCRTEXT_M>
+    <SCRTEXT_L>physische Datei</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Physical file name</DDTEXT>
+     <REPTEXT>Physical file</REPTEXT>
+     <SCRTEXT_S>File</SCRTEXT_S>
+     <SCRTEXT_M>Physical file</SCRTEXT_M>
+     <SCRTEXT_L>Physical file</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/SIE/HR_IDP_FILEEXTERN</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00016</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_FILEEXTERN</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Name, unter dem eine Datei tatsächlich im Dateisystem abgelegt wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Er kann Platzhalter enthalten, die erst zur Laufzeit durch aktuelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Werte ersetzt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der physische Dateiname wird zur Laufzeit vom Funktionsbaustein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FILE_GET_NAME zur Erzeugung eine vollständigen plattformspezifischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dateinamens herangezogen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Wird im Feld &lt;LS&gt;log. Pfad&lt;/&gt; nichts angegeben, so kann der physische</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dateiname auch den Dateipfad enthalten. In diesem Fall gilt der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dateiname aber nur für eine einzige Hardwareplattform und muß deren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Syntax entsprechen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Geben Sie einen Dateinamen ein. Sie können hierfür reservierte Wörter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verwenden, die zur Laufzeit durch aktuelle Werte ersetzt werden. Diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>reservierten Wörter werden immer in spitze Klammern eingefasst:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>K2</TDFORMAT>
+       <TDLINE>Reserviertes Wort,,Ersetzungswert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE &apos;DE_RESERVIERTE_WOERTER&apos; OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE &apos;DE_ANF_FBST&apos; OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/SIE/HR_IDP_FILEEXTERN</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00014</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_FILEEXTERN</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Name under which a file will be stored in the file system. This file</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>name may contain placeholders that are substituted at runtime.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The physical file name is used by the function module FILE_GET_NAME at</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>runtime to compose a complete platform-specific file name.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If nothing is entered in the field &lt;LS&gt;Logical path&lt;/&gt;, the file name</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>may also contain the file path. In this case, the file name applies</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only to one hardware platform and must conform to the syntax of this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>platform.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Enter a file name. You can use reserved words, which are substituted by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the current values at run time. Reserved words must be enclosed in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>angle brackets:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>K2</TDFORMAT>
+       <TDLINE>Reserved word,,Word to be substituted</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE &apos;DE_RESERVIERTE_WOERTER&apos; OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>INCLUDE &apos;DE_ANF_FBST&apos; OBJECT DOKU ID TX</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

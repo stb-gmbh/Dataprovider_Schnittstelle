@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/SIE/HR_IDP_F4_QFELDER</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>SAP DP Felder zur Suchhilfenauswahl</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>RADIO1</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_RADIO1</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RADIO2</FIELDNAME>
+     <ROLLNAME>/SIE/HR_IDP_RADIO2</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
