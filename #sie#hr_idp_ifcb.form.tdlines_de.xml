@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Sehr geehrte Damen und Herren,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>die Gültigkeit der Schnittstelle &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-IFCID&amp; -</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&quot;&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-IDENT&amp;&quot; wurde auf den</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;/SIE/HR_IDP_S1-VALID_TO&amp; verlängert.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>FOOTER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Mit freundlichen Grüßen,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Colorado IFM-Support</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/</TDFORMAT>
+     <TDLINE>(Mailadresse: colorado.ifm-support.de.sbs@siemens.com)</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

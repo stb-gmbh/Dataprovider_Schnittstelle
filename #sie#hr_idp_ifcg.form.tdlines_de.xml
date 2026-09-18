@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Sehr geehrte Damen und Herren,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>die Gültigkeit der Schnittstelle &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-IFCID&amp; -</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&quot;&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-IDENT&amp;&quot; ist auf den</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-ENDDA&amp; begrenzt.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Bitte prüfen Sie, ob diese Schnittstelle weiterhin benötigt wird und die</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>folgenden Informationen auch weiterhin gültig sind:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SELECTIONS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Selektionskriterien:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>SELECTION_LINE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>,,&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-FELDNAME&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-FELDNAME_IDENT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>CASE &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SOPTI&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>WHEN &apos;EQ&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> gleich</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>WHEN &apos;NE&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> ungleich</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>WHEN &apos;BT&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> zwischen</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>WHEN &apos;LE&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> kleiner gleich</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>WHEN OTHERS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE> &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SOPTI&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDCASE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SLLOW&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SHIGH&amp; NE &apos;&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SHIGH&amp; NE &apos;00000000&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> und &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SHIGH&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-SSIGN&amp; EQ &apos;I&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> (inklusiv)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> (exklusiv)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>UC4PARAMETERS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>PARAMETERS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>RECORD</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>FIELD_LAYOUT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>DELIMITER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>FOOTER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>Verrechnungsangaben:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,Org.-Id.   : &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-KSTORGID&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/*</TDFORMAT>
+     <TDLINE>,,Bestellnr. : &amp;/SIE/HR_IDP_IFC_VALIDITY_MAIL-KSTBSTLN&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&lt;A1&gt;Wichtiger Hinweis:&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Die Verlängerung der Gültigkeit der Schnittstelle und somit auch die</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Auslieferung der Daten erfolgt nur bei Beantwortung dieser Mail mit</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Bestätigung der Selektionskriterien.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Sollten sich in der Schnittstelle Änderungen ergeben, sind diese über</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>den bekannten CR-Prozess in Remedy einzureichen.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Mit freundlichen Grüßen,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&amp;/SIE/HR_ICL_CONSTANT=&gt;GC_TEAMID_IFM&amp;</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>
