@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>/SIE/HR_IDP_IFC_NEW</TCODE>
+    <PGMNA>/SIE/HR_IDP_IFC</PGMNA>
+    <DYPNO>1001</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>/SIE/HR_IDP_IFC_NEW</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>/SIE/HR_IDP_IFC_NEW</TCODE>
+    <TTEXT>SAP DP Schnittstellen Anlegen</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

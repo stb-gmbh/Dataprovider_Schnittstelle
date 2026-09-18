@@ -1,0 +1,41 @@
+FUNCTION /SIE/HR_IDP_VERSION_INFO.
+*"----------------------------------------------------------------------
+*"*"Lokale Schnittstelle:
+*"       IMPORTING
+*"             VALUE(INTERFACE_ID) TYPE  /SIE/HR_IDP_INTERFACE_ID
+*"             VALUE(VERSION) TYPE  /SIE/HR_IDP_VERS_NR
+*"       EXPORTING
+*"             VALUE(RC_ICON) TYPE  ICON_L4
+*"----------------------------------------------------------------------
+
+  DATA:
+        CURRENT_VERSION TYPE /SIE/HR_IDP_VERS_NR
+      , CURRENT_RELEASED_VERSION TYPE /SIE/HR_IDP_VERS_NR
+      , CURRENT_ACCEPTED_VERSION TYPE /SIE/HR_IDP_VERS_NR
+      .
+
+
+  CALL FUNCTION '/SIE/HR_IDP_RELEASE_INFO'
+       EXPORTING
+            INTERFACE_ID             = INTERFACE_ID
+            VERSION                  = VERSION
+       IMPORTING
+            CURRENT_VERSION          = CURRENT_VERSION
+            CURRENT_RELEASED_VERSION = CURRENT_RELEASED_VERSION
+            CURRENT_ACCEPTED_VERSION = CURRENT_ACCEPTED_VERSION.
+
+  IF VERSION = CURRENT_ACCEPTED_VERSION.
+    RC_ICON = ICON_GREEN_LIGHT.
+  ELSE.
+    IF VERSION = CURRENT_RELEASED_VERSION.
+      RC_ICON = ICON_YELLOW_LIGHT.
+    ELSE.
+      IF VERSION >= CURRENT_VERSION.
+        RC_ICON = ICON_RED_LIGHT.
+      ELSE.
+        RC_ICON = SPACE.
+      ENDIF.
+    ENDIF.
+  ENDIF.
+
+ENDFUNCTION.
