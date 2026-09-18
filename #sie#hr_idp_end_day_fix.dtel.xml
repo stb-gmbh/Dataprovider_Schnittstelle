@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_END_DAY_FIX</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/SIE/HR_IDP_DAY_FIX</DOMNAME>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>SAP DP Endetag des Datenauswahlzeitraums</DDTEXT>
+    <SCRTEXT_M>Datenauswahl Ende</SCRTEXT_M>
+    <SCRTEXT_L>Datenauswahl Ende</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

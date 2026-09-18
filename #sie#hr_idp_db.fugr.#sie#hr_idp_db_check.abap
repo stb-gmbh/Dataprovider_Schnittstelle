@@ -1,0 +1,137 @@
+FUNCTION /SIE/HR_IDP_DB_CHECK.
+*"----------------------------------------------------------------------
+*"*"Lokale Schnittstelle:
+*"  IMPORTING
+*"     VALUE(INTERFACE) TYPE  /SIE/HR_IDP_INTERFACE_ID
+*"     VALUE(VERSION) TYPE  /SIE/HR_IDP_VERS_NR
+*"     VALUE(TRANSACTION_DATA) TYPE  /SIE/HR_IDP_IFC_DB
+*"  EXPORTING
+*"     VALUE(S1PG) TYPE  /SIE/HR_IDP_TT_S1PG
+*"     VALUE(S1VT) TYPE  /SIE/HR_IDP_TT_S1VT
+*"     VALUE(S1R) TYPE  /SIE/HR_IDP_TT_S1R
+*"  CHANGING
+*"     VALUE(DBSEL) TYPE  /SIE/HR_IDP_DB_SEL
+*"----------------------------------------------------------------------
+
+  IF ( INTERFACE = OLD_IFCID ) AND ( VERSION NE OLD_VRSNR ).
+* rücksetzung aller versionsabhängigen informationen.
+    PERFORM RESET_BUFFER_VERS.
+    OLD_VRSNR = VERSION.
+  ELSE.
+* prüfe ob die diesselbe schnittstelle angesprochen wird.
+    IF ( INTERFACE NE OLD_IFCID ) OR ( VERSION NE OLD_VRSNR ).
+      PERFORM RESET_BUFFER.
+      OLD_IFCID = INTERFACE.
+      OLD_VRSNR = VERSION.
+    ENDIF.
+  ENDIF.
+
+* Prüfe ob ich überhaupt was zu tun habe..
+  CHECK DBSEL NE SPACE.
+
+* Schnittstellenkopfdaten
+  IF DBSEL-S1 = YES.
+    IF TRANSACTION_DATA-S1 = DB_DATA-S1.
+      CLEAR DBSEL-S1.
+    ENDIF.
+  ENDIF.
+
+* Schnittstellendokumentation
+  IF DBSEL-S1T = YES.
+    IF TRANSACTION_DATA-S1T = DB_DATA-S1T.
+      CLEAR DBSEL-S1T.
+    ENDIF.
+  ENDIF.
+
+* Version
+  IF DBSEL-S1VN = YES.
+    IF TRANSACTION_DATA-S1VN = DB_DATA-S1VN.
+      CLEAR DBSEL-S1VN.
+    ENDIF.
+  ENDIF.
+
+* Schnittstellendefinition
+  IF DBSEL-S1DF = YES.
+    IF TRANSACTION_DATA-S1DF = DB_DATA-S1DF.
+      CLEAR DBSEL-S1DF.
+    ENDIF.
+  ENDIF.
+
+* Programmdefinitionen
+  IF DBSEL-S1PG = YES.
+    SORT TRANSACTION_DATA-S1PG[].
+    IF TRANSACTION_DATA-S1PG[] = DB_DATA-S1PG[].
+      CLEAR DBSEL-S1PG.
+    ENDIF.
+  ENDIF.
+
+
+
+*SIE001_BEG
+* Feld-Filter
+  IF DBSEL-S1PS = YES.
+    SORT TRANSACTION_DATA-S1PS[].
+    IF TRANSACTION_DATA-S1PS[] = DB_DATA-S1PS[].
+      CLEAR DBSEL-S1PS.
+    ENDIF.
+  ENDIF.
+
+*SIE001_END
+
+* Zeitparameter
+  IF DBSEL-S1PR = YES.
+    IF TRANSACTION_DATA-S1PR = DB_DATA-S1PR.
+      CLEAR DBSEL-S1PR.
+    ENDIF.
+  ENDIF.
+
+* Delimiter
+  IF DBSEL-S1DL = YES.
+    IF TRANSACTION_DATA-S1DL = DB_DATA-S1DL.
+      CLEAR DBSEL-S1DL.
+    ENDIF.
+  ENDIF.
+
+* Selektionsfelder
+  IF DBSEL-S1VT = YES.
+    SORT TRANSACTION_DATA-S1VT[].
+    IF TRANSACTION_DATA-S1VT[] = DB_DATA-S1VT[].
+      CLEAR DBSEL-S1VT.
+    ENDIF.
+  ENDIF.
+
+  IF DBSEL-S1R = YES.
+    SORT TRANSACTION_DATA-S1R[].
+    IF TRANSACTION_DATA-S1R[] = DB_DATA-S1R[].
+      CLEAR DBSEL-S1R.
+    ENDIF.
+  ENDIF.
+
+  IF DBSEL-S1LT = YES.
+    SORT TRANSACTION_DATA-S1LT[].
+    IF TRANSACTION_DATA-S1LT[] = DB_DATA-S1LT[].
+      CLEAR DBSEL-S1LT.
+    ENDIF.
+  ENDIF.
+
+  IF DBSEL-S1F = YES.
+    SORT TRANSACTION_DATA-S1F[].
+    IF TRANSACTION_DATA-S1F[] = DB_DATA-S1F[].
+      CLEAR DBSEL-S1F.
+    ENDIF.
+  ENDIF.
+
+  IF DBSEL-S1SA = YES.
+    SORT TRANSACTION_DATA-S1SA[].
+    IF TRANSACTION_DATA-S1SA[] = DB_DATA-S1SA[].
+      CLEAR DBSEL-S1SA.
+    ENDIF.
+  ENDIF.
+
+  IF DBSEL-S1PC = YES.
+    IF TRANSACTION_DATA-S1PC = DB_DATA-S1PC.
+      CLEAR DBSEL-S1PC.
+    ENDIF.
+  ENDIF.
+
+ENDFUNCTION.

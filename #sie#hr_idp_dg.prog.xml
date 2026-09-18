@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>/SIE/HR_IDP_DG</NAME>
+    <SUBC>1</SUBC>
+    <APPL>P</APPL>
+    <SECU>P_BT5</SECU>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>SAP DP Deltagenerator</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>rel. 0.94</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Spezifikation der Dateinamen</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Optionen</ENTRY>
+     <LENGTH>8</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Testunterstützung</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Spezifikation der Schnittstelle</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>SAP DP Deltagenerator</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>CHKSORT</KEY>
+     <ENTRY>Sortierung prüfen</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>DETAILCU</KEY>
+     <ENTRY>Zeige aktuelle Eingabedatei</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>DETAILLA</KEY>
+     <ENTRY>Zeige letztee Eingabedatei</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FCURRIN</KEY>
+     <ENTRY>Aktuelle Eingabedatei</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FLASTIN</KEY>
+     <ENTRY>Letzte Eingabedatei</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PCOPYLOC</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PCOPYLOD</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PCOPYLOL</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PCURRLOG</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFILELOC</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFILELOD</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PFILELOL</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PLASTLOG</KEY>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SHOWLIST</KEY>
+     <ENTRY>Zeige Delta-Datei</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

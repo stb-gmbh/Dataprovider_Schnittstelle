@@ -1,0 +1,116 @@
+FUNCTION /SIE/HR_IDP_DB_UPDATE.
+*"----------------------------------------------------------------------
+*"*"Lokale Schnittstelle:
+*"       IMPORTING
+*"             VALUE(INTERFACE) TYPE  /SIE/HR_IDP_INTERFACE_ID
+*"             VALUE(VERSION) TYPE  /SIE/HR_IDP_VERS_NR
+*"             VALUE(SW_COMMIT_WORK) TYPE  XFLAG
+*"       CHANGING
+*"             VALUE(TRANSACTION_DATA) TYPE  /SIE/HR_IDP_IFC_DB
+*"             VALUE(DBSEL) LIKE  /SIE/HR_IDP_DB_SEL
+*"                             STRUCTURE  /SIE/HR_IDP_DB_SEL
+*"----------------------------------------------------------------------
+
+* Macro zum füllen von Arbeitsleisten
+  DEFINE: MODIFY_WORKAREA.
+    IF &1 EQ YES.
+      KEY_LENGTH = &2.
+      TABLE_NAME = &3.
+      PERFORM MOD_WA CHANGING &4
+                              &5
+                              &1
+                              &6
+                              &7.
+      IF &1 NE YES.   " Fehler!
+        CLEAR &1.  " Ja, dann nichts tun.
+        EXIT.
+      ENDIF.
+    ENDIF.
+  END-OF-DEFINITION.
+
+* Macro zum füllen von Tabellen
+  DEFINE: MODIFY_TABLE.
+    IF &1 EQ YES.
+      KEY_LENGTH = &2.
+      TABLE_NAME = &3.
+      PERFORM MOD_TAB TABLES &4 " Alte Daten
+                             &5 " Neue Daten
+                      CHANGING &1
+                              &6
+                              &7.
+      IF &1 NE YES.   " Fehler!
+        CLEAR &1.  " Ja, dann nichts tun.
+        EXIT.
+      ENDIF.
+    ENDIF.
+  END-OF-DEFINITION.
+
+  IF ( INTERFACE = OLD_IFCID ) AND ( VERSION NE OLD_VRSNR ).
+* Rücksetzung aller Versionsabhängigen Informationen.
+    PERFORM RESET_BUFFER_VERS.
+    OLD_VRSNR = VERSION.
+  ELSE.
+* Prüfe ob die diesselbe Schnittstelle angesprochen wird.
+    IF ( INTERFACE NE OLD_IFCID ) OR ( VERSION NE OLD_VRSNR ).
+      PERFORM RESET_BUFFER.
+      OLD_IFCID = INTERFACE.
+      OLD_VRSNR = VERSION.
+    ENDIF.
+  ENDIF.
+
+* Prüfe ob ich überhaupt was zu tun habe..
+  CHECK DBSEL NE SPACE.
+
+  MODIFY_WORKAREA:
+    DBSEL-S1 NORMAL_KEY_LENGTH '/SIE/HR_IDP_S1'
+    DB_DATA-S1 TRANSACTION_DATA-S1 BUFFERED-S1 FOUND-S1
+*
+  , DBSEL-S1T TEXT_KEY_LENGTH '/SIE/HR_IDP_S1T'
+    DB_DATA-S1T TRANSACTION_DATA-S1T BUFFERED-S1T FOUND-S1T
+*
+  , DBSEL-S1VN VERS_KEY_LENGTH '/SIE/HR_IDP_S1VN'
+    DB_DATA-S1VN TRANSACTION_DATA-S1VN BUFFERED-S1VN FOUND-S1VN
+
+   , DBSEL-S1DF DEFI_KEY_LENGTH '/SIE/HR_IDP_S1DF'
+    DB_DATA-S1DF TRANSACTION_DATA-S1DF BUFFERED-S1DF FOUND-S1DF
+
+   , DBSEL-S1PR PARA_KEY_LENGTH '/SIE/HR_IDP_S1PR'
+     DB_DATA-S1PR TRANSACTION_DATA-S1PR BUFFERED-S1PR FOUND-S1PR
+*
+  , DBSEL-S1DL DELIM_KEY_LENGTH '/SIE/HR_IDP_S1DL'
+    DB_DATA-S1DL TRANSACTION_DATA-S1DL BUFFERED-S1DL FOUND-S1DL
+*
+  , DBSEL-S1PC PRICE_KEY_LENGTH '/SIE/HR_IDP_S1PC'
+    DB_DATA-S1PC TRANSACTION_DATA-S1PC BUFFERED-S1PC FOUND-S1PC
+  .
+
+  MODIFY_TABLE:
+      DBSEL-S1PG PROG_KEY_LENGTH '/SIE/HR_IDP_S1PG'
+      DB_DATA-S1PG[] TRANSACTION_DATA-S1PG[] BUFFERED-S1PG FOUND-S1PG
+*
+*SIE001_BEG
+    , DBSEL-S1PS FILT_KEY_LENGTH '/SIE/HR_IDP_S1PS'
+      DB_DATA-S1PS[] TRANSACTION_DATA-S1PS[] BUFFERED-S1PS FOUND-S1PS
+*SIE001_END
+*
+    , DBSEL-S1VT SPEC_KEY_LENGTH '/SIE/HR_IDP_S1VT'
+      DB_DATA-S1VT[] TRANSACTION_DATA-S1VT[] BUFFERED-S1VT FOUND-S1VT
+*
+   , DBSEL-S1R ROLE_KEY_LENGTH '/SIE/HR_IDP_S1R'
+      DB_DATA-S1R[] TRANSACTION_DATA-S1R[] BUFFERED-S1R FOUND-S1R
+*
+   , DBSEL-S1LT NOTE_KEY_LENGTH '/SIE/HR_IDP_S1LT'
+      DB_DATA-S1LT[] TRANSACTION_DATA-S1LT[] BUFFERED-S1LT FOUND-S1LT
+*
+   , DBSEL-S1F MODI_KEY_LENGTH '/SIE/HR_IDP_S1F'
+     DB_DATA-S1F[] TRANSACTION_DATA-S1F[] BUFFERED-S1F FOUND-S1F
+*
+  , DBSEL-S1SA S1SA_KEY_LENGTH '/SIE/HR_IDP_S1SA'
+    DB_DATA-S1SA[] TRANSACTION_DATA-S1SA[] BUFFERED-S1SA FOUND-S1SA
+*
+  .
+
+  CHECK SW_COMMIT_WORK = YES.
+  COMMIT WORK.
+
+ENDFUNCTION.

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>/SIE/HR_IDP_DOWNLOAD</TCODE>
+    <PGMNA>/SIE/HR_IDP_IFC_DOWNLOAD</PGMNA>
+    <CINFO>gA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>/SIE/HR_IDP_DOWNLOAD</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>/SIE/HR_IDP_DOWNLOAD</TCODE>
+    <TTEXT>SAP DP Schnittstellen Exportieren</TTEXT>
+   </TSTCT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

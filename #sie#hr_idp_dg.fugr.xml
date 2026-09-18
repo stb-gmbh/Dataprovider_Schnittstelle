@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SAP DP Delta Generator</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_DGTOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_DG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_GETFILES</FUNCNAME>
+     <SHORT_TEXT>Physische Dateinamen zur Deltabildung</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INTERFACE</PARAMETER>
+       <TYP>/SIE/HR_IDP_INTERFACE_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>INCL_TESTFILES</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ALLOW_INITIAL</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>CURRENT</PARAMETER>
+       <TYP>TEXT256</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PREVIOUS</PARAMETER>
+       <TYP>TEXT256</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INTERFACE_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NOT_DELTA</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>CANNOT_COMPUTE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INTERFACE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schnittstellenid</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INCL_TESTFILES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>inklusive Dateien aus Testläufen?</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ALLOW_INITIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Previous-Datei muss nicht gefunden werden</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CURRENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Aktuelle Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PREVIOUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Letzte Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INTERFACE_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_DELTA</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CANNOT_COMPUTE</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
