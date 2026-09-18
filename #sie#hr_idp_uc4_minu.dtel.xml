@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/SIE/HR_IDP_UC4_MINU</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/SIE/HR_IDP_UC4_DMINUTE</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>UC4 Startzeitpunkt: Minute</DDTEXT>
+    <REPTEXT>Minutenangabe</REPTEXT>
+    <SCRTEXT_S>Minute</SCRTEXT_S>
+    <SCRTEXT_M>Minutenangabe</SCRTEXT_M>
+    <SCRTEXT_L>Minutenangabe</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>UC4 Periodicity: Period</DDTEXT>
+     <REPTEXT>UC4 Period</REPTEXT>
+     <SCRTEXT_S>UC4 Period</SCRTEXT_S>
+     <SCRTEXT_M>UC4 Period</SCRTEXT_M>
+     <SCRTEXT_L>UC4 Period</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
