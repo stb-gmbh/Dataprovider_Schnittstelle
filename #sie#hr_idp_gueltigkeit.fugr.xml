@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SAP DP Verlängerung der Gültigkeit</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/SIE/LHR_IDP_GUELTIGKEITTOP</SOBJ_NAME>
+    <SOBJ_NAME>/SIE/SAPLHR_IDP_GUELTIGKEIT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_IFC_PRINT</FUNCNAME>
+     <SHORT_TEXT>SAP DP Drucken/Versenden von Schnittstellenkorrespondenz</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INTERFACE</PARAMETER>
+       <TYP>/SIE/HR_IDP_INTERFACE_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FORM</PARAMETER>
+       <DEFAULT>&apos;/SIE/HR_IDP_IFCB&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TDFORM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>RECEIVERS</PARAMETER>
+       <DBFIELD>/SIE/HR_IDP_ROLES</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INTERFACE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RECEIVERS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/SIE/HR_IDP_READ_VALIDITY_DATE</FUNCNAME>
+     <SHORT_TEXT>SAP DP Einlesen des Gültigkeitsintervalls der Schnittstellen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INTERVAL</PARAMETER>
+       <DEFAULT>2</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SIE/HR_IDP_MONTH_OFFSET</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>DATE_FROM</PARAMETER>
+       <DEFAULT>SY-DATUM</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SIE/HR_IDP_VALID_FROM</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>DATE_TO</PARAMETER>
+       <TYP>/SIE/HR_IDP_VALID_TO</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TAB_INTERFACES</PARAMETER>
+       <DBSTRUCT>/SIE/HR_IDP_MONITOR_GD</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INTERVAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Intervallsangabe in Monaten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATE_TO</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_INTERFACES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der (noch) gültigen Schnittstellen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATE_FROM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stichtag</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <LONGTEXTS__-SIE_-HR_IDP_READ_VALIDITY_DATE>
+    <item>
+     <DOKIL>
+      <ID>FU</ID>
+      <OBJECT>/SIE/HR_IDP_READ_VALIDITY_DATE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>T</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/SIE/HR_IDP_READ_VALIDITY_DATE</TDNAME>
+      <TDID>FU</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dieser Funktionsbaustein ermittelt aus einem Stichtag und einem in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Monaten angegebenen Intervall all die Schnittstellen, die in diesem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zeitraum Ihre Gültigkeit verlieren werden und gibt diese als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabelle zurück.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS__-SIE_-HR_IDP_READ_VALIDITY_DATE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

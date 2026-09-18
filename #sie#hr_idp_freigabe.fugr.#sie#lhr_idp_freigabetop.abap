@@ -1,0 +1,39 @@
+*Änderungen:
+*   SIE001 Hierl 17.06.04 Neue Tabelle /SIE/HR_IDP_S1PS
+*                         aufgenommen. CR 4258
+*                         Thema "Filter auf Feldebene"
+
+FUNCTION-POOL /SIE/HR_IDP_FREIGABE MESSAGE-ID /SIE/HR_IDP_MESSAGES
+              LINE-SIZE 100.
+
+TABLES: /SIE/HR_IDP_S1
+      , /SIE/HR_IDP_S1T
+      , /SIE/HR_IDP_S1VN
+      , /SIE/HR_IDP_S1F
+      , /SIE/HR_IDP_S1SA
+      , /SIE/HR_IDP_S1PG
+      , TRDIR
+      , /SIE/HR_IDP_F1
+      .
+
+* Typen und Konstanten
+INCLUDE <ICON>.
+INCLUDE /SIE/HR_IDP_TYPES.
+
+DATA:  OKCODE LIKE SY-UCOMM
+    , SVCODE LIKE SY-UCOMM
+    .
+
+DATA: INT_INTERFACE TYPE /SIE/HR_IDP_IFC_DB
+    , INT_VERSION TYPE /SIE/HR_IDP_VERS_NR
+    , SW_RELEASE TYPE TY_YESNO
+    , G_SW_RELEASE_DIALOG TYPE TY_YESNO
+    , G_SW_TEST TYPE TY_YESNO
+    .
+
+DATA:   SW_RELEASE_BUTTON TYPE TY_YESNO.
+
+DATA: FL_ACCEPT TYPE TY_YESNO.
+
+INCLUDE /SIE/HR_IDP_AUTHORITY.
+.

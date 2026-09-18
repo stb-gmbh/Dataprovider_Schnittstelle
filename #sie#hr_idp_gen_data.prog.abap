@@ -1,0 +1,4 @@
+***INCLUDE /SIE/HR_IDP_GEN_DATA .
+
+INCLUDE /SIE/HR_IDP_BOOL.
+INCLUDE /SIE/HR_IDP_GEN_DATA_LOG.             " Protokollierung
